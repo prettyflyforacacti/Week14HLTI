@@ -1,0 +1,18 @@
+bill = float(input("What's your total? "))
+
+fifteen_percent = ((bill / 100) * 15)
+eighteen_percent = ((bill / 100) * 18)
+twenty_percent = ((bill / 100) * 20)
+
+total_1 = (fifteen_percent + bill)
+total_2 = (eighteen_percent + bill)
+total_3 = (twenty_percent + bill)
+
+print("\n15% tip is $", fifteen_percent)
+print("With tip the total is $", total_1)
+
+print("\n18% tip is $", eighteen_percent)
+print("With tip the total is $", total_2)
+
+print("\n20% tip is $", twenty_percent)
+print("With tip the total is $", total_3)
